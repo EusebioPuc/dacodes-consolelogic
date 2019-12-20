@@ -16,7 +16,7 @@ namespace ConsoleLogic
             {
                 try
                 {
-                    Console.Write("Por favor ingresa el valor de T (número de casos): ");
+                    Console.Write("Por favor ingresa el valor de T (número de casos) : ");
                     T = Convert.ToInt32(Console.ReadLine());
                     if (T >= 1 && T <= 5000)
                     {
